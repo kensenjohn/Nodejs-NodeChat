@@ -1,5 +1,19 @@
 Date: April 24, 2011
 
+For Admins
+Step 1) Install node.js
+Step 2) Download this from GitHub
+Step 3) cd NodeChat
+Step 4) node start_server.js
+
+For Clients
+Step 1) telnet <ipaddress of server> 8282
+
+8282 is the port number where the server is listening to.
+
+This server uses TCP  sockets.
+
+
 Have read a lot about node.js, so decided to write something.
 This project was born out of that curiosity.
 
