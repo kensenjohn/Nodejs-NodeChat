@@ -1,0 +1,26 @@
+Date: April 24, 2011
+
+Have read a lot about node.js, so decided to write something.
+This project was born out of that curiosity.
+
+Chat Server, uses the TCP sockets to allow telnet (or similar products) to communicate with each other.
+Command based application, which does basic functionality such as
+a) loging in users
+b) keep track of all users
+c) sending messages to users
+d) allowing users to execute special commands.
+e) handling conditions when clients stop using their server.
+
+This is not a complete server. It has not taken into consideration security, hacks, malicious intent of use.
+This was built purely for educational reasons.
+
+Am I planning on [perfecting/completing/fixing bugs in] this project?
+Nope. Simply because I dont have the time or need for it at this point of time.
+
+Was fun going through the documentation of the nodejs and learning new stuff.
+
+version of nodejs used: 0.4.6
+
+Thanks,
+Who shot the sheriff? - Bob Marley.
+
