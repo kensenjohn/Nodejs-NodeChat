@@ -1,5 +1,25 @@
 Date: April 24, 2011
 
+This is a chat server I created using Node.js.
+
+Functions
+1) TCP server listening to port 828
+2) Multiple clients can login.
+3) Clients are assigned randon user names.
+4) Clients can create their own user name
+5) No Persistence, (No data is stored, all data is lost when the chat server shuts down)
+6) No logging
+7) Support for custom commands for Clients.
+      Currently supports only 3 commands
+        about
+        list_users
+        quit
+8) No client interface, use Telnet
+9) When client exits the chat server informs other clients about the departure.
+
+
+Steps to Install and Use
+
 For Admins
 Step 1) Install node.js
 Step 2) Download this from GitHub
